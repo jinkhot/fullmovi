@@ -9,6 +9,12 @@
     .navbar img { height: 150px; }
     .nav-links { display: flex; align-items: center; gap: 10px; }
     .nav-links a { color: white; text-decoration: none; margin: 0 5px; }
+    .logo {
+  width: 200px;     /* Change width as needed */
+  height: auto;     /* Keeps aspect ratio */
+  display: block;
+  margin: 0 auto;   /* Centers the image horizontally */
+}
 
 .logo-container {
   width: 100%;
